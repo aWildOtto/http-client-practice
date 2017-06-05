@@ -5,10 +5,10 @@ var requestOptions = {
   path: '/http-examples/step6/reverse.html'
 };
 
-function printUpperCase (html) {
+function printReverse (html) {
 
   console.log(html.split("").reverse().join(""));
 
 }
 
-getHTML(requestOptions, printUpperCase);
+getHTML(requestOptions, printReverse);
